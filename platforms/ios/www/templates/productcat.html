@@ -1,0 +1,25 @@
+<ion-view title="Our Catalogue" hide-back-button="true" class="card-bg">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content has-header="true" padding="true">
+
+        <ion-refresher
+                pulling-text="Pull to refresh..."
+                on-refresh="doRefresh()">
+        </ion-refresher>
+
+        <div ng-repeat="productcat in productscat" class="list card">
+              <a ui-sref="app.productscatlist({productId: productcat.name})">
+                <div class="item">
+                    <h2><center>{{productcat.name}}</center></h2>
+                </div>
+                <div class="item item-body">
+                    <img ng-if="productcat.image"  ng-src="{{productcat.image}}">
+                </div>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,23 @@
+<ion-view title="Membership Card" hide-back-button="false" class="chatterfeed">
+
+  <ion-nav-buttons side="left">
+      <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+
+
+  <ion-content has-header="true">
+  <div class="container">
+        <div class="jumbotron">
+          <button class="btn btn-primary btn-lg" onclick="forceLogin()">
+            Login to Chat on Salesforce
+          </button>
+          <button id="chatterFeedButton" class="btn btn-primary btn-lg"
+              onclick="createMemberCard('')" style="display: none">
+          Show My Membership Card
+          </button>
+        </div>
+        <div id="memberCard"/>
+      </div>
+    </ion-content>
+
+</ion-view>

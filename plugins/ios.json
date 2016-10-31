@@ -1,0 +1,55 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.unarin.cordova.beacon": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.salesforcem.bigw"
+        }
+    }
+}
